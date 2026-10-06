@@ -1,0 +1,31 @@
+{
+  "station": {
+    "stationId": "MeowCat23",
+    "location": "Lviv, Drahomanova 49"
+  },
+  "date": "09-09-2026",
+  "sensors": [
+    {
+      "sensorId": "t1",
+      "sensorType": "temperature",
+      "unit": "°C",
+      "readings": [
+        { "hour": 0, "value": 14 },
+        { "hour": 1, "value": 13 },
+        { "hour": 2, "value": null },
+        { "hour": 3, "value": 12 }
+      ]
+    },
+    {
+      "sensorId": "h1",
+      "sensorType": "humidity",
+      "unit": "%",
+      "readings": [
+        { "hour": 0, "value": 82 },
+        { "hour": 1, "value": 85 },
+        { "hour": 2, "value": null },
+        { "hour": 3, "value": 90 }
+      ]
+    }
+  ]
+}
